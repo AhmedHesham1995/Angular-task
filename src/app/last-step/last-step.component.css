@@ -77,19 +77,15 @@
   margin-top: 80px;
 }
 
-/* Mobile devices (portrait) */
 @media (max-width: 576px) {
   .home {
     width: 100%;
     height: auto;
     background-size: cover;
     background-position: center;
-    /* border-radius: 0; */
   }
 
   .step-two_btns {
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
     padding: 15px;
     margin-bottom: 10px;
   }
@@ -128,7 +124,6 @@
   }
 }
 
-/* Tablets (landscape) and mobile devices (landscape) */
 @media (min-width: 577px) and (max-width: 768px) {
   .home {
     width: 90%;
@@ -175,7 +170,6 @@
   }
 }
 
-/* Large screens (desktops) */
 @media (min-width: 769px) {
   .home {
     width: 907px;
