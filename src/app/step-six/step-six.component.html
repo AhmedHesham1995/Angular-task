@@ -1,0 +1,39 @@
+<div class="outer">
+  <section class="home">
+    <div class="container">
+      <div class="step-two_btns">
+        <!-- <img src="./close.svg" alt="" /> -->
+        <button class="close-btn">x</button>
+
+        <span class="back-part" (click)="navigateToHome()">
+          العودة
+          <img class="backImg" src="back.svg" alt="Back" />
+        </span>
+      </div>
+
+      <div class="loader-header">
+        <h2 class="loader_h2">جاري إرسال رسالتك الأسكانية</h2>
+        <h5 class="loader_h5">الرجاء الأنتظار بعض الدقائق فقط</h5>
+
+        <img class="msg_img" src="msg.gif" alt="" />
+
+        <div class="progress-container">
+          <div class="progress-text">
+            <span>{{ currentProgress }}/{{ maxProgress }}</span>
+            <span class="status-text">جاري الارسال</span>
+          </div>
+          <div class="progress-bar mb-5">
+            <div
+              class="progress-bar-fill"
+              [style.width.%]="(currentProgress / maxProgress) * 100"
+            ></div>
+            <div
+              class="progress-dot"
+              [style.right.%]="(currentProgress / maxProgress) * 100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
