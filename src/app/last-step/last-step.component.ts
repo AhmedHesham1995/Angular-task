@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-last-step',
@@ -8,10 +7,4 @@ import { Router } from '@angular/router';
   templateUrl: './last-step.component.html',
   styleUrl: './last-step.component.css',
 })
-export class LastStepComponent {
-  constructor(private router: Router) {}
-
-  navigateToHome(): void {
-    this.router.navigate(['/step-six']);
-  }
-}
+export class LastStepComponent {}
