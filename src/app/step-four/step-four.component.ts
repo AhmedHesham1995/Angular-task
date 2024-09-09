@@ -36,7 +36,7 @@ export class StepFourComponent {
   shortDescription: string = '';
   detailedDescription: string = '';
 
-  @Output() descriptionData = new EventEmitter<{
+  @Output() additionalData = new EventEmitter<{
     shortDescription: string;
     detailedDescription: string;
   }>();
@@ -49,7 +49,7 @@ export class StepFourComponent {
 
   navigateToStepFive(): void {
     // Emit data before navigating to the next step
-    this.descriptionData.emit({
+    this.additionalData.emit({
       shortDescription: this.shortDescription,
       detailedDescription: this.detailedDescription,
     });

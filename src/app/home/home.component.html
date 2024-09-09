@@ -225,6 +225,120 @@
   </section>
 </div> -->
 
+<!-- <div class="outer">
+  <section class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 home_left">
+          <button class="close-btn close-hidden-l">x</button>
+
+          <h2 class="home_left-h2">طريقة بناء الحملة الخاصة بك</h2>
+          <p class="home_left-p">الطريقة المختارة لطريقة إنشاء رسالة الحملة</p>
+
+          <div
+            class="home_left-box"
+            [ngClass]="{ active: selectedBox === 1 }"
+            (click)="selectBox(1)"
+          >
+            <img
+              [src]="selectedBox === 1 ? 'true-box.svg' : 'circle-empty.svg'"
+              alt=""
+            />
+            <div class="boxIcon"><img src="manual.svg" alt="" /></div>
+            <h4 class="home_left-box-h4" dir="auto">اختيار يدوي</h4>
+            <p class="home_left-box-p" dir="auto">
+              قم بإنشاء رسالة طلب سكنك بشكل يدوي ودقيق. اختر كلماتك بعناية،
+            </p>
+          </div>
+
+          <div
+            class="home_left-box"
+            [ngClass]="{ active: selectedBox === 2 }"
+            (click)="selectBox(2)"
+          >
+            <img
+              [src]="selectedBox === 2 ? 'true-box.svg' : 'circle-empty.svg'"
+              alt=""
+            />
+            <div class="boxIcon"><img src="ai.svg" alt="" /></div>
+            <h4 class="home_left-box-h4" dir="auto">
+              اختيار عن طريق الذكاء الأصطناعي
+            </h4>
+            <p class="home_left-box-p" dir="auto">
+              قم بإنشاء رسالة طلب سكنك بشكل يدوي ودقيق. اختر كلماتك بعناية،
+            </p>
+          </div>
+
+          <div
+            class="home_left-bottom"
+            [ngStyle]="{ visibility: isBoxSelected() ? 'visible' : 'hidden' }"
+          >
+            <hr />
+            <h2 class="home_left-h2">قم بتسمية مشروع أختيار</h2>
+            <p class="home_left-p">أسم مشروعك يجب ان يكون مميز وواضح</p>
+            <input
+              class="input-left"
+              type="text"
+              placeholder="أسم مشروع مقترح"
+              [(ngModel)]="projectName"
+            />
+          </div>
+
+          <button
+            class="home_left-btn"
+            [ngClass]="{ active: isBoxSelected() && projectName.trim() }"
+            [disabled]="!isBoxSelected() || !projectName.trim()"
+            (click)="navigateToStepTwo()"
+          >
+            أبدأ الأن
+          </button>
+        </div>
+        <div class="col-md-6 home_right">
+          <button class="close-btn close-hidden-r">x</button>
+
+          <h5 class="home_right_adv-h5" dir="auto">
+            <img class="micImg" src="home-mic.svg" alt="" />
+            تهيئة الحملات الإعلانية
+          </h5>
+          <h1 class="home_right_h1" dir="auto">
+            مرحبًا بك في منصة أختيار عقارات سكنية للتعمير
+          </h1>
+          <p class="home_right_p" dir="auto">
+            قم بإضافة عملائك الحاليين إلي نظامك الجديد لتبدأ التجربة قم بإضافة
+            عملائك الحاليين إلي نظامك الجديد لتبدأ التجربة
+          </p>
+          <ul style="text-align: right">
+            <li class="home_right_li">
+              قم بتحميل شعارك وتفاصيل علامتك التجارية<img
+                class="trueImg"
+                src="true.svg"
+              />
+            </li>
+            <li class="home_right_li">
+              اختر وخصص الحقول التي تحتاجها<img
+                class="trueImg"
+                src="true.svg"
+              />
+            </li>
+            <li class="home_right_li">
+              اختر موضوعاً وصمم مظهر استمارتك<img
+                class="trueImg"
+                src="true.svg"
+              />
+            </li>
+            <li class="home_right_li">
+              ضبط رسالة شكر وإجراءات المتابعة<img
+                class="trueImg"
+                src="true.svg"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div> -->
+
 <div class="outer">
   <section class="home">
     <div class="container">

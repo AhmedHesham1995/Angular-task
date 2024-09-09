@@ -33,7 +33,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./step-five.component.css'], // Ensure this is correctly named
 })
 export class StepFiveComponent {
-  @Output() additionalData = new EventEmitter<any>();
+  @Output() additionalDataPlus = new EventEmitter<any>();
 
   selectedDesign: string | null = null;
   description: string = '';
@@ -45,7 +45,7 @@ export class StepFiveComponent {
   }
 
   navigateToStepSix(): void {
-    this.additionalData.emit({
+    this.additionalDataPlus.emit({
       design: this.selectedDesign,
       description: this.description,
     });

@@ -91,7 +91,7 @@
 
 .inputs-section {
   text-align: right;
-  margin-top: 20px;
+  margin-top: -40px;
   padding: 0 62px;
 }
 
@@ -176,6 +176,8 @@
   border: 1px solid rgba(211, 214, 220, 0.4);
   box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
   outline: 0;
+  text-align: right;
+  padding-right: 10px;
 }
 
 @media (max-width: 1200px) {
