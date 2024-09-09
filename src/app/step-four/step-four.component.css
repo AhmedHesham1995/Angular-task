@@ -1,5 +1,7 @@
 .outer {
   background-color: darkcyan;
+
+  padding: 10px;
 }
 
 .home {
@@ -14,10 +16,15 @@
 .step-two_btns {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 25px;
   padding-left: 28px;
   padding-right: 28px;
   margin-bottom: 48px !important;
+  @media (max-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .close-btn {
@@ -204,16 +211,16 @@
   .home {
     width: 100%;
     height: auto;
-    margin: 20px auto;
-    padding: 20px;
+    /* margin: 20px auto; */
+    /* padding: 20px; */
     background-size: contain;
     background-position: top center;
   }
 
   .step-two_btns {
-    padding-left: 20px;
+    /* padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; */
   }
 
   .step-two_header {
@@ -254,7 +261,8 @@
 
 @media (max-width: 768px) {
   .home {
-    padding: 10px;
+    /* padding: 10px; */
+    padding-bottom: 20px;
   }
 
   .close-btn {
@@ -264,11 +272,11 @@
   .back-part {
     display: flex;
     align-items: center;
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 
   .backImg {
-    margin-left: 2px;
+    /* margin-left: 2px; */
   }
 
   .step-two_header {
@@ -329,7 +337,7 @@
   .material-icons {
     font-size: 15px;
 
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 1px;
+    margin-left: 1px;
   }
 }

@@ -1,3 +1,7 @@
+.outer {
+  padding: 10px;
+}
+
 .home {
   height: auto;
   width: 100%;
@@ -13,6 +17,8 @@
 .step-two_btns {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
   padding: 25px 28px;
   margin-bottom: 15px !important;
 }
@@ -211,11 +217,11 @@
 
 @media (max-width: 768px) {
   .home {
-    padding: 15px;
+    /* padding: 15px; */
   }
 
   .step-two_btns {
-    padding: 15px;
+    /* padding: 15px; */
   }
 
   .inputs-section {
@@ -224,6 +230,10 @@
 
   .flat-Textarea {
     height: 170px;
+  }
+
+  .step-two_p1 {
+    line-height: 1.2;
   }
 }
 
@@ -249,12 +259,12 @@
   }
 
   .textarea_section {
-    margin-top: -90px;
+    margin-top: -70px;
   }
 }
 
 @media (max-width: 465px) {
   .textarea_section {
-    margin-top: -20px;
+    margin-top: -10px;
   }
 }

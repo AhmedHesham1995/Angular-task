@@ -1,5 +1,6 @@
 .outer {
   background-color: darkcyan;
+  padding: 10px;
 }
 
 .home {
@@ -198,7 +199,7 @@ hr {
     width: 100%;
     height: auto;
     margin: 20px auto;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .home_right,

@@ -1,3 +1,7 @@
+.outer {
+  padding: 10px;
+}
+
 .home {
   height: 654px;
   width: 907px;
@@ -10,10 +14,16 @@
 .step-two_btns {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
   padding-top: 25px;
   padding-left: 28px;
   padding-right: 28px;
   margin-bottom: 48px !important;
+  @media (max-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .close-btn {
@@ -123,6 +133,9 @@
   height: 35px;
   margin: 132px auto 33px;
   box-shadow: 0px 2.95px 36.89px 0px rgba(0, 0, 0, 0.08);
+  @media (max-width: 768px) {
+    margin: 40px auto;
+  }
 }
 
 .step-two-btn.active {
@@ -144,7 +157,7 @@
   .home {
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding-bottom: 20px;
   }
 
   .step-two_header {
@@ -168,18 +181,18 @@
   }
 
   .step-two_btns {
-    padding: 15px;
+    /* padding: 15px; */
   }
 
   .back-part {
-    margin-top: 10px;
-    font-size: 12px;
-    line-height: 16px;
+    /* margin-top: 10px; */
+    /* font-size: 12px; */
+    /* line-height: 16px; */
   }
 
   .step-two-btn {
-    margin: 30px auto 20px;
-    width: 90%;
+    /* margin: 30px auto 20px; */
+    /* width: 90%; */
   }
 
   .step-two_p1 {
