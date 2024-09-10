@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { StepTwoComponent } from './step-two/step-two.component';
-import { StepThreeComponent } from './step-three/step-three.component';
-import { StepFourComponent } from './step-four/step-four.component';
-import { StepFiveComponent } from './step-five/step-five.component';
-import { StepSixComponent } from './step-six/step-six.component';
-import { LastStepComponent } from './last-step/last-step.component';
+// import { HomeComponent } from './home/home.component';
+// import { StepTwoComponent } from './step-two/step-two.component';
+// import { StepThreeComponent } from './step-three/step-three.component';
+// import { StepFourComponent } from './step-four/step-four.component';
+// import { StepFiveComponent } from './step-five/step-five.component';
+// import { StepSixComponent } from './step-six/step-six.component';
+// import { LastStepComponent } from './last-step/last-step.component';
 import { HouseParentComponent } from './house-parent/house-parent.component';
 
 export const routes: Routes = [

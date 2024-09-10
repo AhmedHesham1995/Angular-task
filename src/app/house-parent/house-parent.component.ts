@@ -95,13 +95,13 @@ export class HouseParentComponent {
     console.log('Progress complete, navigating to last step');
   }
 
-  goToStep(step: number): void {
-    if (step >= 1 && step <= 7) {
-      this.currentStep = step;
-    } else {
-      console.error('Invalid step number');
-    }
-  }
+  // goToStep(step: number): void {
+  //   if (step >= 1 && step <= 7) {
+  //     this.currentStep = step;
+  //   } else {
+  //     console.error('Invalid step number');
+  //   }
+  // }
 
   navigateBack(): void {
     if (this.currentStep > 1) {
